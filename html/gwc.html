@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车流程——放进购物车</title>
+    <!-- <link rel="stylesheet" href="jQueryGwc/css/carts.css">
+    <link rel="stylesheet" href="jQueryGwc/css/reset.css"> -->
+    <link rel="stylesheet" href="../css/gwc.css">
+    <script src="../js/effects.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+</head>
+<body>
+    <div id="box">
+        <div id="top">
+            <div class="container">
+                <ul id="top_left">
+                    <p id="local_img"></p>
+                    <li>
+                        <span id="local_place"></span>
+                    </li>
+                    <i></i>
+                    <li>
+                        <a href="#" id='top_shop'>全国专科连锁直营门店</a>
+                    </li>
+                </ul>
+                <ul id="top_right">
+                    <li class="rightli"><a href="login.html" id="top_login">请登录</a></li>
+                    <li class="rightli"><a href="reg1.html" id="top_reg">免费注册</a></li>
+                    <li class="rightli">，欢迎</li>
+                    <li class="rightli"><a href="">注销</a></li>
+                    <li id="top_gwc" class="rightli">
+                        <i class="gwcimg"></i>
+                        <a href="#">购物车<span>0</span>件</a>
+                    </li>
+    
+                    <li class="rightli">我的康德乐
+                        <i class="arrow"></i>
+                        <ul class="rightin">
+                            <li><a href="javascript:void(0)">我的订单</a></li>
+                            <li><a href="javascript:void(0)">我的收藏</a></li>
+                            <li><a href="javascript:void(0)">收货地址</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="rightli">客户服务
+                        <i class="arrow"></i>
+                        <ul class="rightin">
+                            <li><a href="javascript:void(0)">帮助中心</a></li>
+                            <li><a href="javascript:void(0)">全国分店</a></li>
+                            <li><a href="javascript:void(0)">投诉建议</a></li>
+                        </ul>
+                    </li>
+                    <li class="rightli">
+                        <i class="ls"></i>
+                        网站导航
+                        <i class="arrow"></i>
+                        <ul class="rightin">
+                            <li><a href="javascript:void(0)">药品类目</a></li>
+                            <li><a href="javascript:void(0)">查找药品</a></li>
+                            <li><a href="javascript:void(0)">门店查询</a></li>
+                        </ul>
+                    </li>
+                    <li class="rightli">
+                        <i class="phone_img"></i>
+                        手机版
+                        <i class="arrow"></i>
+                        <div id="icodeimg">
+                            <img src="../images/wechat.png" alt="" id="chatimg1">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container container990">
+            <div id="tittle">
+                <img src="../images/sphlogo.jpg" alt="" id="tittle_img">
+                <img src="../images/rigsph.jpg" alt="" id="spnimg">
+            </div>
+            <div id="gwc_top">
+                <h2>我的购物车</h2>
+                <span>全场满168包邮</span>
+            </div>
+
+            <div id="gwc_content">
+                <ul id="cart">
+                    <li>
+                        <p>选</p>
+                        <p>商品</p>
+                        <p style="padding-left: 20px;">单价</p>
+                        <p style="padding-left: 30px;">数量</p>
+                        <p style="padding-left: 42px;">小计</p>
+                        <p style="padding-left: 14px;">操作</p>
+                    </li>
+                    <!-- <li class="goods">
+                        <p class="good_check"><input type="checkbox" name="good" value="" /></p>
+                        <p class="good_name">西瓜</p>
+                        <p class="good_price">￥&nbsp;99.99</p>
+                        <p class="num">
+                            <span class="cutnum">-</span>
+                            <input class="nownum" type="text" value="1" />
+                            <span class="addnum">+</span>
+                        </p>
+                        <p class="good_total">￥&nbsp;99.99</p>
+                        <p class="good_del">
+                            <a href="javascript:;">删除</a>
+                        </p>
+                        <div class="data">
+                            <p class="spec">20mg*8片</p>
+                            <p class="shop">广州秀越店adsf</p>
+                        </div>
+                    </li>
+                    <li class="goods">
+                        <p class="good_check"><input type="checkbox" name="good" id="" value="" /></p>
+                        <p class="good_name">荔枝</p>
+                        <p class="good_price">￥&nbsp;55.99</p>
+                        <p class="num">
+                            <span class="cutnum">-</span>
+                            <input class="nownum" type="text" value="1" />
+                            <span class="addnum">+</span>
+                        </p>
+                        <p class="good_total">￥&nbsp;55.99</p>
+                        <p class="good_del">
+                            <a href="javascript:;">删除</a>
+                        </p>
+                        <div class="data">
+                            <p class="spec">20mg*8片</p>
+                            <p class="shop">广州秀越店</p>
+                        </div>
+                    </li>
+                    <li class="goods">
+                        <p class="good_check"><input type="checkbox" name="good" id="" value="" /></p>
+                        <p class="good_name">芒果</p>
+                        <p class="good_price">￥&nbsp;65.99</p>
+                        <p class="num">
+                            <span class="cutnum">-</span>
+                            <input class="nownum" type="text" value="1" />
+                            <span class="addnum">+</span>
+                        </p>
+                        <p class="good_total">￥&nbsp;65.99</p>
+                        <p class="good_del">
+                            <a href="javascript:;">删除</a>
+                        </p>
+                        <div class="data">
+                            <p class="spec">20mg*8片</p>
+                            <p class="shop">广州秀越店</p>
+                        </div>
+                    </li> -->
+                </ul>
+                <div id="del">
+                    <p id="allchecked"><input type="checkbox" name="" id="" value="" />全选</p>
+                    <p id="delall">
+                        <a href="javascript:;">删除</a>
+                    </p>
+                    <p id="allnum">已选 <span>0</span> 件商品</p>
+                    <p id="totalprice">总计（不含运费）：<span>￥0.00</span></p>
+                    <a href="javascript:;" id="submit_btn">提交</a>
+                </div>
+            </div>
+            
+
+            <div id="empty_box">
+                <p class="empty_text">购物车内暂时没有商品，您可以<a href="index.html">去首页</a>挑选喜欢的商品</p>
+            </div>
+        </div>
+        <div id="truth_goods">
+            <div class="truth_img"></div>
+            <div class="truth_text">
+                <h3>正品保障</h3>
+                <p>正品保障 放心选购</p>
+            </div>
+            <div class="truth_img"></div>
+            <div class="truth_text">
+                <h3>专业药师</h3>
+                <p>用药全程指导</p>
+            </div>
+            <div class="truth_img"></div>
+            <div class="truth_text">
+                <h3>厂家授权</h3>
+                <p>厂家授权 正品渠道</p>
+            </div>
+            <div class="truth_img"></div>
+            <div class="truth_text">
+                <h3>隐私配送</h3>
+                <p>安全放心 隐私配送</p>
+            </div>
+        </div>
+        <div id="tail_blue">
+            <div class="container">
+                <dl class="blue_ul">
+                    <dt>购物指南</dt>
+                    <dd>退换货流程</dd>
+                    <dd>会员说明</dd>
+                    <dd>订单管理</dd>
+                    <dd>订购方式</dd>
+                    <dd>订购流程</dd>
+                    <dd>用户注册</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>购物保障</dt>
+                    <dd>配送保障</dd>
+                    <dd>直营连锁</dd>
+                    <dd>GPS管理</dd>
+                    <dd>7天退换货</dd>
+                    <dd>合法资质</dd>
+                    <dd>十年品牌</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>支付方式</dt>
+                    <dd>网银/在线支付</dd>
+                    <dd>银行汇款</dd>
+                    <dd>货到付款</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>配送服务</dt>
+                    <dd>冷藏易碎品说</dd>
+                    <dd>商品签收</dd>
+                    <dd>快递查询</dd>
+                    <dd>配送细则</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>售后服务</dt>
+                    <dd>投诉与建议</dd>
+                    <dd>7天退换货</dd>
+                    <dd>提供机打发票</dd>
+                    <dd>全程用药服务</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>关于我们</dt>
+                    <dd>商务伙伴</dd>
+                    <dd>全国直营门店</dd>
+                    <dd>公司简介</dd>
+                    <dd>招募供应商</dd>
+                    <dd>人才招聘</dd>
+                </dl>
+                <img src="../images/footerwc.jpg" alt="" class="blue_rimg">
+            </div>
+        </div>
+        <div id="bottom_police">
+            <div class="container">
+                <p>康德乐大药房－国家药监局认证的合法网上药店，全国首家专科连锁药房，专注于经营重大慢性疾病用药。粤ICP备11004502号-7 ©2005-2019 康德乐网上药店版权所有，并保留所有权利。</p>
+                <a href="javascript:void(0)" class="abtn">企业营业执照</a>
+                <a href="javascript:void(0)" class="abtn">互联网药品交易服务资格证书</a>
+                <a href="javascript:void(0)" class="abtn">互联网药品信息服务资格证书</a>
+                <a href="javascript:void(0)" class="abtn">药品经营许可证</a>
+                <div id="police_img">
+                    <img src="../images/QQ截图20190318105834_03.png" alt="" class="pimg">
+                    <img src="../images/QQ截图20190318105834_05.png" alt="" class="pimg">
+                    <img src="../images/QQ截图20190318105834_07.png" alt="" class="pimg">
+                    <img src="../images/QQ截图20190318105834_09.png" alt="" class="pimg">
+                    <img src="../images/QQ截图20190318105834_11.png" alt="" class="pimg">
+                </div>
+            </div>
+        </div>
+        <ul id="rsuck">
+            <li class="rlis">
+                <div class="rsimg"></div>
+                <span class="rspan">购物车0件</span>
+            </li>
+            <li class="rlis">
+                <div class="rsimg"></div>
+                <span class="rspan">我的收藏</span>
+            </li>
+            <li class="rst">
+                <div class="rsimg"></div>
+            </li>
+            <li class="rlis">
+                <div class="rsimg"></div>
+                <span class="rspan">投诉建议</span>
+            </li>
+            <li class="rlis">
+                <div class="rsimg"></div>
+                <span class="rspan">返回顶部</span>
+            </li>
+        </ul>
+    </div>
+</body>
+<!-- <script 
+    src="jQueryGwc/js/carts.js"></script> -->
+<script src="../js/gwc.js"></script>
+</html>

@@ -1,0 +1,2798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>康德乐大药房网上药店(原百济健康商城)</title>
+    
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/effects.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <!-- 获取当前城市信息的接口(jsonp,此接口偶尔报错) -->
+</head>
+
+<body>
+    <div id="box">
+        <div id="top">
+            <div class="container">
+                <ul id="top_left">
+                    <p id="local_img"></p>
+                    <li>
+                        <span id="local_place"></span>
+                    </li>
+                    <i></i>
+                    <li>
+                        <a href="#" id='top_shop'>全国专科连锁直营门店</a>
+                    </li>
+                </ul>
+                <ul id="top_right">
+                    <li class="rightli"><a href="http://47.112.204.27:894/login.html" id="top_login">请登录</a></li>
+                    <li class="rightli"><a href="http://47.112.204.27:894/reg1.html" id="top_reg">免费注册</a></li>
+                    <li class="rightli">，欢迎</li>
+                    <li class="rightli"><a href="">注销</a></li>
+                    <li id="top_gwc" class="rightli">
+                        <i class="gwcimg"></i>
+                        <a href="#">购物车<span>0</span>件</a>
+                    </li>
+
+                    <li class="rightli">我的康德乐
+                        <i class="arrow"></i>
+                        <ul class="rightin">
+                            <li><a href="javascript:void(0)">我的订单</a></li>
+                            <li><a href="javascript:void(0)">我的收藏</a></li>
+                            <li><a href="javascript:void(0)">收货地址</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="rightli">客户服务
+                        <i class="arrow"></i>
+                        <ul class="rightin">
+                            <li><a href="javascript:void(0)">帮助中心</a></li>
+                            <li><a href="javascript:void(0)">全国分店</a></li>
+                            <li><a href="javascript:void(0)">投诉建议</a></li>
+                        </ul>
+                    </li>
+                    <li class="rightli">
+                        <i class="ls"></i>
+                        网站导航
+                        <i class="arrow"></i>
+                        <ul class="rightin">
+                            <li><a href="javascript:void(0)">药品类目</a></li>
+                            <li><a href="javascript:void(0)">查找药品</a></li>
+                            <li><a href="javascript:void(0)">门店查询</a></li>
+                        </ul>
+                    </li>
+                    <li class="rightli">
+                        <i class="phone_img"></i>
+                        手机版
+                        <i class="arrow"></i>
+                        <div id="icodeimg">
+                            <img src="images/wechat.png" alt="" id="chatimg1">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="tittle">
+            <div class="container">
+                <img src="images/sphlogo.jpg" alt="" id="tittle_img">
+                <div id="search_box">
+                    <div id="search">
+                        <input type="text" id="s_inpt" placeholder="医护星尖锐克忧">
+                        <input type="button" value="搜索" id="s_inpb">
+                    </div>
+                    <ul id="search_list">
+                        <li>热门搜索：</li>
+                        <li><a href="javascript:void(0)">易瑞沙</a></li>
+                        <li><a href="javascript:void(0)">芭克硅胶软膏</a></li>
+                        <li><a href="javascript:void(0)">人血蛋白</a></li>
+                        <li><a href="javascript:void(0)">恩替卡韦</a></li>
+                        <li><a href="javascript:void(0)">金戈</a></li>
+                        <li><a href="javascript:void(0)">非布司他</a></li>
+                        <li><a href="javascript:void(0)">七十味珍珠丸</a></li>
+                        <li><a href="javascript:void(0)">开浦兰</a></li>
+                    </ul>
+                </div>
+                <img src="images/rigsph.jpg" alt="" id="spnimg">
+            </div>
+        </div>
+        <!-- 右部和上部的菜单栏及其里面的下拉菜单 -->
+        <div id="nav">
+            <div class="container">
+                <div id="goods">
+                    <a href="javascript:void(0)">全部商品分类</a>
+                </div>
+                <ul id="goodsul">
+                    <li class="glis">
+                        <div id="littlezz"></div>
+                        <span class="logos"></span>
+                        <a class="logoa" href="">肿瘤科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肝癌</a></dt>
+                                <dd><a href="javascript:void(0)">多吉美</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐片</a></dd>
+                                <dd><a href="javascript:void(0)">化癥回生口服液</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金龙胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金坷垃</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">肺癌</a></dt>
+                                <dd><a href="javascript:void(0)">泰瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">易瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">清肺散结丸</a></dd>
+                                <dd><a href="javascript:void(0)">益肺清化颗粒</a></dd>
+                                <dd><a href="javascript:void(0)">赛可瑞</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">鼻咽癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">平消胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">天芝草胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">慈丹胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">直肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">肝病科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肝癌</a></dt>
+                                <dd><a href="javascript:void(0)">多吉美</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐片</a></dd>
+                                <dd><a href="javascript:void(0)">化癥回生口服液</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金龙胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金坷垃</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">鼻咽癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">平消胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">天芝草胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">慈丹胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">直肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">皮肤性病科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肺癌</a></dt>
+                                <dd><a href="javascript:void(0)">泰瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">易瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">清肺散结丸</a></dd>
+                                <dd><a href="javascript:void(0)">益肺清化颗粒</a></dd>
+                                <dd><a href="javascript:void(0)">赛可瑞</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">鼻咽癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">平消胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">天芝草胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">慈丹胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">直肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">神经科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肝癌</a></dt>
+                                <dd><a href="javascript:void(0)">多吉美</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐片</a></dd>
+                                <dd><a href="javascript:void(0)">化癥回生口服液</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金龙胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金坷垃</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">肺癌</a></dt>
+                                <dd><a href="javascript:void(0)">泰瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">易瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">清肺散结丸</a></dd>
+                                <dd><a href="javascript:void(0)">益肺清化颗粒</a></dd>
+                                <dd><a href="javascript:void(0)">赛可瑞</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">直肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">心脑血管科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肝癌</a></dt>
+                                <dd><a href="javascript:void(0)">多吉美</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐片</a></dd>
+                                <dd><a href="javascript:void(0)">化癥回生口服液</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金龙胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金坷垃</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">肺癌</a></dt>
+                                <dd><a href="javascript:void(0)">泰瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">易瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">清肺散结丸</a></dd>
+                                <dd><a href="javascript:void(0)">益肺清化颗粒</a></dd>
+                                <dd><a href="javascript:void(0)">赛可瑞</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">鼻咽癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">平消胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">天芝草胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">慈丹胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">男科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">鼻咽癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">平消胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">天芝草胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">慈丹胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">直肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">精神科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肝癌</a></dt>
+                                <dd><a href="javascript:void(0)">多吉美</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐片</a></dd>
+                                <dd><a href="javascript:void(0)">化癥回生口服液</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金龙胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金坷垃</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">直肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">糖尿病科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肺癌</a></dt>
+                                <dd><a href="javascript:void(0)">泰瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">易瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">清肺散结丸</a></dd>
+                                <dd><a href="javascript:void(0)">益肺清化颗粒</a></dd>
+                                <dd><a href="javascript:void(0)">赛可瑞</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">风湿免疫科用药</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肺癌</a></dt>
+                                <dd><a href="javascript:void(0)">泰瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">易瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">清肺散结丸</a></dd>
+                                <dd><a href="javascript:void(0)">益肺清化颗粒</a></dd>
+                                <dd><a href="javascript:void(0)">赛可瑞</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">鼻咽癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">平消胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">天芝草胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">慈丹胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">直肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">妇儿科/母婴用品</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肝癌</a></dt>
+                                <dd><a href="javascript:void(0)">多吉美</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐片</a></dd>
+                                <dd><a href="javascript:void(0)">化癥回生口服液</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金龙胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金坷垃</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">鼻咽癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">平消胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">天芝草胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">慈丹胶囊</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="glis">
+                        <span class="logos"></span>
+                        <a class="logoa" href="">更多科室</a>
+                        <div class="biglists">
+                            <dl>
+                                <dt><a href="javascript:void(0)">肝癌</a></dt>
+                                <dd><a href="javascript:void(0)">多吉美</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐片</a></dd>
+                                <dd><a href="javascript:void(0)">化癥回生口服液</a></dd>
+                                <dd><a href="javascript:void(0)">肝复乐胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金龙胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">金坷垃</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">肺癌</a></dt>
+                                <dd><a href="javascript:void(0)">泰瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">易瑞沙</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">复方万年青胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">清肺散结丸</a></dd>
+                                <dd><a href="javascript:void(0)">益肺清化颗粒</a></dd>
+                                <dd><a href="javascript:void(0)">赛可瑞</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">鼻咽癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">平消胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">天芝草胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">慈丹胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胃癌</a></dt>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">艾坦</a></dd>
+                                <dd><a href="javascript:void(0)">艾滨</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">直肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">结肠癌</a></dt>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">胰腺癌</a></dt>
+                                <dd><a href="javascript:void(0)">复方斑蝥胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">安体舒</a></dd>
+                                <dd><a href="javascript:void(0)">消癌平片</a></dd>
+                                <dd><a href="javascript:void(0)">复方红豆杉胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">维达康</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="javascript:void(0)">食道癌</a></dt>
+                                <dd><a href="javascript:void(0)">安素</a></dd>
+                                <dd><a href="javascript:void(0)">仙蟾片</a></dd>
+                                <dd><a href="javascript:void(0)">增生平片</a></dd>
+                                <dd><a href="javascript:void(0)">珍香胶囊</a></dd>
+                                <dd><a href="javascript:void(0)">抗癌平丸</a></dd>
+                                <dd><a href="javascript:void(0)">食道平散</a></dd>
+                                <dd><a href="javascript:void(0)">全安素</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul id="small_list">
+                    <li class="lower"><a href="javascript:void(0)">首页</a></li>
+                    <li class="higher">
+                        <a href="javascript:void(0)">专科频道</a>
+                        <span class="arrow"></span>
+                        <div class="slu fla">
+                            <a href="javascript:void(0)">男科频道</a>
+                            <a href="javascript:void(0)">糖尿病频道</a>
+                            <a href="javascript:void(0)">肝病频道</a>
+                            <a href="javascript:void(0)">白癜风频道</a>
+                            <a href="javascript:void(0)">癫痫频道</a>
+                            <a href="javascript:void(0)">银屑病频道</a>
+                            <a href="javascript:void(0)">肿瘤频道</a>
+                            <a href="javascript:void(0)">两性频道</a>
+                            <a href="javascript:void(0)">妇科频道</a>
+                            <a href="javascript:void(0)">脱发频道</a>
+                        </div>
+                    </li>
+                    <li class="higher">
+                        <a href="javascript:void(0)">健康资讯</a>
+                        <span class="arrow"></span>
+                        <div class="slu">
+                            <a href="javascript:void(0)">健康咨询</a>
+                            <a href="javascript:void(0)">健康问答</a>
+                            <a href="javascript:void(0)">药师博客</a>
+                        </div>
+                    </li>
+                    <li class="lower"><a href="javascript:void(0)">了解我们</a></li>
+                    <li class="lower"><a href="javascript:void(0)">慈善捐助</a></li>
+                </ul>
+                <div id="nav_phone">
+                    <span>400-168-0606</span>
+                </div>
+                <a href="https://www.baiji.com.cn/topic/yaoshizhuanlan/" id="nav_teacher"></a>
+            </div>
+        </div>
+        <div id="lbt">
+            <!-- 轮播图背景部分 -->
+            <div class="backimg" style="z-index: 1; opacity: 1;"></div>
+            <div class="backimg" style="z-index: 1; opacity: 0;"></div>
+            <div class="backimg" style="z-index: 1; opacity: 0;"></div>
+            <div class="backimg" style="z-index: 1; opacity: 0;"></div>
+            <div class="backimg" style="z-index: 1; opacity: 0;"></div>
+            <div class="backimg" style="z-index: 1; opacity: 0;"></div>
+            <div class="backimg" style="z-index: 1; opacity: 0;"></div>
+            <div class="container">
+                <!-- 轮播图主图片 -->
+                <div id="lbt_img">
+                    <img src="images/20190227ukopjg.jpg" alt="" style="z-index: 1; opacity: 1;">
+                    <img src="images/20190202hioejj.jpg" alt="" style="z-index: 1; opacity: 0;">
+                    <img src="images/20190122kugwuw.jpg" alt="" style="z-index: 1; opacity: 0;">
+                    <img src="images/20190301ovitna.jpg" alt="" style="z-index: 1; opacity: 0;">
+                    <img src="images/20181228hmgyjn.jpg" alt="" style="z-index: 1; opacity: 0;">
+                    <img src="images/20181228hojqbc.jpg" alt="" style="z-index: 1; opacity: 0;">
+                    <img src="images/20181228imdfpr.jpg" alt="" style="z-index: 1; opacity: 0;">
+                </div>
+                <!-- 轮播图小点 -->
+                <div id="dodul">
+                    <a href="javascript:void(0)" class="dodactive"></a>
+                    <a href="javascript:void(0)"></a>
+                    <a href="javascript:void(0)"></a>
+                    <a href="javascript:void(0)"></a>
+                    <a href="javascript:void(0)"></a>
+                    <a href="javascript:void(0)"></a>
+                    <a href="javascript:void(0)"></a>
+                </div>
+                <!-- 轮播图左右切换项 -->
+                <a href="javascript:void(0)" id="banleft">&lt;</a>
+                <a href="javascript:void(0)" id="banright">&gt;</a>
+
+                <!-- 轮播图中大药房全国分店部分 -->
+                <div id="all_place">
+                    <div id="ap_tittle">
+                        康德乐大药房全国分店
+                    </div>
+                    <div id="ap_outerbox">
+                        <ul id="ap_lbts">
+                            <li class="pl plin">广州越秀</li>
+                            <li class="pl">广州海珠</li>
+                            <li class="pl">广州荔湾</li>
+                            <li class="pl">北京海淀</li>
+                            <li class="pl">北京朝阳</li>
+                            <li class="pl">成都青羊</li>
+                            <li class="pl">成都武侯</li>
+                            <li class="pl">上海徐汇</li>
+                            <li class="pl">上海浦东</li>
+                            <li class="pl">上海静安</li>
+                            <li class="pl">济南店</li>
+                            <li class="pl">杭州店</li>
+                            <li class="pl">西安店</li>
+                            <li class="pl">南京店</li>
+                            <li class="pl">昆明店</li>
+                            <li class="pl">武汉雪松</li>
+                            <li class="pl">天津店</li>
+                            <li class="pl">无锡店</li>
+                            <li class="pl">重庆店</li>
+                            <li class="pl">福州店</li>
+                            <li class="pl">南宁店</li>
+                            <li class="pl">沈阳店</li>
+                            <li class="pl">深圳店</li>
+                            <li class="pl">湛江店</li>
+                            <li class="pl">中山店</li>
+                            <li class="pl">厦门店</li>
+                            <li class="pl">佛山店</li>
+                            <li class="pl">汕头店</li>
+                            <li class="pl">哈尔滨店</li>
+                            <li class="pl">合肥店</li>
+                            <li class="pl">吉林店</li>
+                            <li class="pl">长沙店</li>
+                            <li class="pl">大连店</li>
+                            <li class="pl">青岛店</li>
+                            <li class="pl">苏州吴中</li>
+                            <li class="pl">苏州互益</li>
+                            <li class="pl">茂名店</li>
+                        </ul>
+                    </div>
+                    
+                    <div id="ap_prev"></div>
+                    <div id="ap_next"></div>
+
+                    <div id="lowouter">
+                        <ul id="lowinner">
+                            <li class="inner_img">
+                                <img src="images/gzyx1-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzyx1-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/zh-01.jpg" alt="" class="doubleimg">
+                                <img src="images/zh-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzlw-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzlw-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjhd-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjhd-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjcy-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjcy-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzyx1-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzyx1-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/zh-01.jpg" alt="" class="doubleimg">
+                                <img src="images/zh-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzlw-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzlw-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjhd-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjhd-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjcy-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjcy-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzyx1-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzyx1-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/zh-01.jpg" alt="" class="doubleimg">
+                                <img src="images/zh-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzlw-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzlw-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjhd-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjhd-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjcy-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjcy-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzyx1-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzyx1-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/zh-01.jpg" alt="" class="doubleimg">
+                                <img src="images/zh-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzlw-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzlw-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjhd-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjhd-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjcy-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjcy-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzyx1-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzyx1-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/zh-01.jpg" alt="" class="doubleimg">
+                                <img src="images/zh-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzlw-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzlw-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjhd-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjhd-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjcy-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjcy-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzyx1-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzyx1-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/zh-01.jpg" alt="" class="doubleimg">
+                                <img src="images/zh-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzlw-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzlw-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjhd-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjhd-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjcy-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjcy-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzyx1-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzyx1-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/zh-01.jpg" alt="" class="doubleimg">
+                                <img src="images/zh-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/gzlw-01.jpg" alt="" class="doubleimg">
+                                <img src="images/gzlw-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjhd-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjhd-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjcy-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjcy-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjhd-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjhd-02.jpg" alt="" class="doubleimg">
+                            </li>
+                            <li class="inner_img">
+                                <img src="images/bjcy-01.jpg" alt="" class="doubleimg">
+                                <img src="images/bjcy-02.jpg" alt="" class="doubleimg">
+                            </li>
+                        </ul>
+                        <a href="javascript:void(0)" id="low_prev">&lt;</a>
+                        <a href="javascript:void(0)" id="low_next">&gt;</a>
+
+                        <ul id="phones">
+                            <li class="phoneslists">
+                                <p>020-87613558，020-87303808</p>
+                                <p>8:00-20:00，每天</p>
+                                <p>广州市越秀区先烈南路9号101房</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-84302866，020-84263051</p>
+                                <p>8:30-19:00，每天</p>
+                                <p>广州市海珠区工业大道中路255-257号首层自编04A（广州市海珠区工业大道与南泰路...</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-81809319</p>
+                                <p>8:00-18:30，每天</p>
+                                <p>广州市荔湾区明心路7号（脑科医院正对面）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-88246190，010-88284730</p>
+                                <p>8:00-18:00，每天</p>
+                                <p>北京市海淀区复兴路甲38号A6-2（嘉德公寓底商，苏宁易购隔壁）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-58637320</p>
+                                <p>8:30-17:30，周六日休息</p>
+                                <p>北京市朝阳区广渠路28号205号楼1层205-北126</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-87613558，020-87303808</p>
+                                <p>8:00-20:00，每天</p>
+                                <p>广州市越秀区先烈南路9号101房</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-84302866，020-84263051</p>
+                                <p>8:30-19:00，每天</p>
+                                <p>广州市海珠区工业大道中路255-257号首层自编04A（广州市海珠区工业大道与南泰路...</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-81809319</p>
+                                <p>8:00-18:30，每天</p>
+                                <p>广州市荔湾区明心路7号（脑科医院正对面）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-88246190，010-88284730</p>
+                                <p>8:00-18:00，每天</p>
+                                <p>北京市海淀区复兴路甲38号A6-2（嘉德公寓底商，苏宁易购隔壁）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-58637320</p>
+                                <p>8:30-17:30，周六日休息</p>
+                                <p>北京市朝阳区广渠路28号205号楼1层205-北126</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-87613558，020-87303808</p>
+                                <p>8:00-20:00，每天</p>
+                                <p>广州市越秀区先烈南路9号101房</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-84302866，020-84263051</p>
+                                <p>8:30-19:00，每天</p>
+                                <p>广州市海珠区工业大道中路255-257号首层自编04A（广州市海珠区工业大道与南泰路...</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-81809319</p>
+                                <p>8:00-18:30，每天</p>
+                                <p>广州市荔湾区明心路7号（脑科医院正对面）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-88246190，010-88284730</p>
+                                <p>8:00-18:00，每天</p>
+                                <p>北京市海淀区复兴路甲38号A6-2（嘉德公寓底商，苏宁易购隔壁）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-58637320</p>
+                                <p>8:30-17:30，周六日休息</p>
+                                <p>北京市朝阳区广渠路28号205号楼1层205-北126</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-87613558，020-87303808</p>
+                                <p>8:00-20:00，每天</p>
+                                <p>广州市越秀区先烈南路9号101房</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-84302866，020-84263051</p>
+                                <p>8:30-19:00，每天</p>
+                                <p>广州市海珠区工业大道中路255-257号首层自编04A（广州市海珠区工业大道与南泰路...</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-81809319</p>
+                                <p>8:00-18:30，每天</p>
+                                <p>广州市荔湾区明心路7号（脑科医院正对面）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-88246190，010-88284730</p>
+                                <p>8:00-18:00，每天</p>
+                                <p>北京市海淀区复兴路甲38号A6-2（嘉德公寓底商，苏宁易购隔壁）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-58637320</p>
+                                <p>8:30-17:30，周六日休息</p>
+                                <p>北京市朝阳区广渠路28号205号楼1层205-北126</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-87613558，020-87303808</p>
+                                <p>8:00-20:00，每天</p>
+                                <p>广州市越秀区先烈南路9号101房</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-84302866，020-84263051</p>
+                                <p>8:30-19:00，每天</p>
+                                <p>广州市海珠区工业大道中路255-257号首层自编04A（广州市海珠区工业大道与南泰路...</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-81809319</p>
+                                <p>8:00-18:30，每天</p>
+                                <p>广州市荔湾区明心路7号（脑科医院正对面）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-88246190，010-88284730</p>
+                                <p>8:00-18:00，每天</p>
+                                <p>北京市海淀区复兴路甲38号A6-2（嘉德公寓底商，苏宁易购隔壁）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-58637320</p>
+                                <p>8:30-17:30，周六日休息</p>
+                                <p>北京市朝阳区广渠路28号205号楼1层205-北126</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-87613558，020-87303808</p>
+                                <p>8:00-20:00，每天</p>
+                                <p>广州市越秀区先烈南路9号101房</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-84302866，020-84263051</p>
+                                <p>8:30-19:00，每天</p>
+                                <p>广州市海珠区工业大道中路255-257号首层自编04A（广州市海珠区工业大道与南泰路...</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-81809319</p>
+                                <p>8:00-18:30，每天</p>
+                                <p>广州市荔湾区明心路7号（脑科医院正对面）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-88246190，010-88284730</p>
+                                <p>8:00-18:00，每天</p>
+                                <p>北京市海淀区复兴路甲38号A6-2（嘉德公寓底商，苏宁易购隔壁）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-58637320</p>
+                                <p>8:30-17:30，周六日休息</p>
+                                <p>北京市朝阳区广渠路28号205号楼1层205-北126</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-87613558，020-87303808</p>
+                                <p>8:00-20:00，每天</p>
+                                <p>广州市越秀区先烈南路9号101房</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-84302866，020-84263051</p>
+                                <p>8:30-19:00，每天</p>
+                                <p>广州市海珠区工业大道中路255-257号首层自编04A（广州市海珠区工业大道与南泰路...</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>020-81809319</p>
+                                <p>8:00-18:30，每天</p>
+                                <p>广州市荔湾区明心路7号（脑科医院正对面）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-88246190，010-88284730</p>
+                                <p>8:00-18:00，每天</p>
+                                <p>北京市海淀区复兴路甲38号A6-2（嘉德公寓底商，苏宁易购隔壁）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-58637320</p>
+                                <p>8:30-17:30，周六日休息</p>
+                                <p>北京市朝阳区广渠路28号205号楼1层205-北126</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-88246190，010-88284730</p>
+                                <p>8:00-18:00，每天</p>
+                                <p>北京市海淀区复兴路甲38号A6-2（嘉德公寓底商，苏宁易购隔壁）</p>
+                            </li>
+                            <li class="phoneslists">
+                                <p>010-58637320</p>
+                                <p>8:30-17:30，周六日休息</p>
+                                <p>北京市朝阳区广渠路28号205号楼1层205-北126</p>
+                            </li>
+                            <div id="phone_logos1"></div>
+                            <div id="phone_logos2"></div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 限时抢购栏及其轮播图 -->
+        <div id="newgoods">
+            <div class="container">
+                <ul id="newgoods_lbt">
+
+                    <li class="lbts">
+                        <!-- 标题 -->
+                        <div class="lbts_tittle">
+                            限时抢购
+                        </div>
+                        <!-- 导航栏(每个索引都绑定了一组轮播图) -->
+                        <ul class="lbts_lists">
+                            <li>肾内</li>
+                            <li>皮肤性病</li>
+                            <li>常备用药</li>
+                            <li>糖尿病</li>
+                            <li>风湿免疫</li>
+                        </ul>
+                        <!-- 导航栏指向的轮播图组 -->
+                        <ul class="lotsof_lbt">
+                            <li class="lot_list carousel-content">
+                                <!-- 给小轮播图的容器(适应插件) -->
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            华丹肾炎灵颗粒 10g*9袋
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥49.00
+                                        </p>
+                                        <img src="images/15949_G_1533019683803.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            依泉舒缓保湿喷雾
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥69.00
+                                        </p>
+                                        <img src="images/9890_G_1502957310045.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- <li class="lot_list"></li> -->
+                            <li class="lot_list carousel-content">
+                                <!-- 给小轮播图的容器(适应插件) -->
+                                <ul class="bits_ul carousel">
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            内舒拿 50μg*60揿
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥55.00
+                                        </p>
+                                        <img src="images/9890_G_1502957310045.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            鸿茅药酒 500ml
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥278.00
+                                        </p>
+                                        <img src="images/20190301ovitna.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            鸿茅药酒 500ml*4瓶
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥895.00
+                                        </p>
+                                        <img src="images/14991_G_1486452184381.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            华丹肾炎灵颗粒 10g*9袋
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥49.00
+                                        </p>
+                                        <img src="images/15949_G_1533019683803.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            医护星尖锐克忧 2ml*8瓶
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥598.00
+                                        </p>
+                                        <img src="images/16507_G_1547174187087.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            依泉舒缓保湿喷雾
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥69.00
+                                        </p>
+                                        <img src="images/9890_G_1502957310045.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            诺和力 3ml:18mg(预填充注射笔)
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥440.00
+                                        </p>
+                                        <img src="images/8131_G_1502850634211.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            美迪康 0.25g*24片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥4.00
+                                        </p>
+                                        <img src="images/16120_G_1534838657914.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- 左右按钮 -->
+                            <div class="lot-prev">&lt;</div>
+                            <div class="lot-next">&gt;</div>
+                            <!-- 分页按钮 -->
+                            <ul class="uldod">
+                                
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="lbts">
+                        <div class="lbts_tittle">
+                            特价抢购
+                        </div>
+                        <ul class="lbts_lists">
+                            <li>妇儿</li>
+                            <li>神经</li>
+                            <li>风湿免疫</li>
+                            <li>泌尿生殖</li>
+                        </ul>
+                        <!-- 导航栏指向的轮播图组 -->
+                        <ul class="lotsof_lbt">
+                            <li class="lot_list carousel-content">
+                                <!-- 给小轮播图的容器(适应插件) -->
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            莉芙敏片 0.28g*30片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥328.00
+                                        </p>
+                                        <img src="images/8248_G_1504512826619.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            仙璐贝滴剂 50ml
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥95.00
+                                        </p>
+                                        <img src="images/9484_G_1522035566416.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            意泰丽 1.5g:1.35mg*12支
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥298.00
+                                        </p>
+                                        <img src="images/11037_G_1504511629421.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                                鹿胎膏 10g*5块/盒*2小盒/中盒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥78.00
+                                        </p>
+                                        <img src="images/12940_G_1530849559058.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- <li class="lot_list"></li> -->
+                            <li class="lot_list carousel-content">
+                                <!-- 给小轮播图的容器(适应插件) -->
+                                <ul class="bits_ul carousel">
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            万全力太 50mg*24片
+                                        </p>
+                                        <p class="bits_price">
+                                            特价中
+                                        </p>
+                                        <img src="images/5997_G_1513835756092.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            七十味珍珠丸 1g*6丸
+                                        </p>
+                                        <p class="bits_price">
+                                            特价中
+                                        </p>
+                                        <img src="images/6338_G_1504515535288.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            思博海 5mg*7片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥42.00
+                                        </p>
+                                        <img src="images/5923_G_1505801620667.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            益髓颗粒 15g*2袋*10小盒
+                                        </p>
+                                        <p class="bits_price">
+                                            特价中
+                                        </p>
+                                        <img src="images/14847_G_1551259644228.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                        
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            风定宁 40mg*12片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥150.00
+                                        </p>
+                                        <img src="images/11443_G_1533006411644.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            健骨生丸 4.5g*9袋
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥295.00
+                                        </p>
+                                        <img src="images/7717_G_1492485967164.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            大风丸 9g*20袋*3小盒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥260.00
+                                        </p>
+                                        <img src="images/15949_G_1533019683803.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            通络生骨胶囊 0.5g*36粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥180.00
+                                        </p>
+                                        <img src="images/15413_G_1504058794227.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            艾力达 20mg*4片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥499.00
+                                        </p>
+                                        <img src="images/7209_G_1529895580066.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            补肾填精丸 5.6g*12袋
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥68.00
+                                        </p>
+                                        <img src="images/8303_G_1505285627254.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            汇仁肾宝片 0.7g*126片/瓶
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥322.00
+                                        </p>
+                                        <img src="images/14407_G_1463363242659.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            锁阳固精丸 6g*10袋(水蜜丸)
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥45.00
+                                        </p>
+                                        <img src="images/15332_G_1498023794861.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            诺和力 3ml:18mg(预填充注射笔)
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥440.00
+                                        </p>
+                                        <img src="images/8131_G_1502850634211.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            美迪康 0.25g*24片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥4.00
+                                        </p>
+                                        <img src="images/16120_G_1534838657914.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- 左右按钮 -->
+                            <div class="lot-prev">&lt;</div>
+                            <div class="lot-next">&gt;</div>
+                            <!-- 分页按钮 -->
+                            <ul class="uldod">
+                        
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="lbts">
+                        <div class="lbts_tittle">
+                            热卖商品
+                        </div>
+                        <ul class="lbts_lists">
+                            <li>皮肤性病</li>
+                            <li>风湿免疫</li>
+                            <li>肿瘤</li>
+                            <li>肝病</li>
+                            <li>精神</li>
+                        </ul>
+                        <!-- 导航栏指向的轮播图组 -->
+                        <ul class="lotsof_lbt">
+                            <li class="lot_list carousel-content">
+                                <!-- 给小轮播图的容器(适应插件) -->
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            达力士 15g:0.75mg
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥76.00
+                                        </p>
+                                        <img src="images/6200_G_1504772889052.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            芭克硅胶软膏 15g
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥498.00
+                                        </p>
+                                        <img src="images/6192_G_1502851767331.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            驱白巴布期片 0.51g*12片*2板
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥49.00
+                                        </p>
+                                        <img src="images/7148_G_1501465599636.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            银耳孢糖胶囊 0.25g*24粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥30.00
+                                        </p>
+                                        <img src="images/9651_G_1504770590152.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- <li class="lot_list"></li> -->
+                            <li class="lot_list carousel-content">
+                                <!-- 给小轮播图的容器(适应插件) -->
+                                <ul class="bits_ul carousel">
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            优立通 40mg*14片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥175.00
+                                        </p>
+                                        <img src="images/13244_G_1508121149755.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            泛福舒 3.5mg（儿童规格）*10粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥87.00
+                                        </p>
+                                        <img src="images/7280_G_1491990053689.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            威灵骨刺膏 12g*1贴
+                                        </p>
+                                        <p class="bits_price">
+                                            特价中
+                                        </p>
+                                        <img src="images/7915_G_1546070978289.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            优立通 40mg*14片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥175.00
+                                        </p>
+                                        <img src="images/13244_G_1508121149755.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                    
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            西黄丸 3g*10瓶
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥768.00
+                                        </p>
+                                        <img src="images/12073_G_1507788418721.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            仙芝楼牌灵芝孢子油软胶囊 500mg*30粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥2280.00
+                                        </p>
+                                        <img src="images/7924_G_1385518117703.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            仙芝楼牌破壁灵芝孢子粉 1g*20袋
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥298.00
+                                        </p>
+                                        <img src="images/13150_G_1445310529788.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            五味沙棘散 3g*5袋
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥28.00
+                                        </p>
+                                        <img src="images/10121_G_1504679566494.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            鳖甲煎丸 50g
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥58.00
+                                        </p>
+                                        <img src="images/7687_G_1547102861041.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            扶正化瘀胶囊 0.3g*60粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥55.00
+                                        </p>
+                                        <img src="images/7606_G_1501480860752.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            复方鳖甲软肝片 0.5g*48片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥80.00
+                                        </p>
+                                        <img src="images/7517_G_1433484880045.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            安络化纤丸 6g*10袋
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥75.00
+                                        </p>
+                                        <img src="images/7684_G_1508135760765.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            百适可 5mg*21片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥110.00
+                                        </p>
+                                        <img src="images/14807_G_1494561790579.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            盐酸氟西汀胶囊 20mg*12粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥32.00
+                                        </p>
+                                        <img src="images/15156_G_1491464963427.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            瑞美隆 30mg*10片/盒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥122.00
+                                        </p>
+                                        <img src="images/15705_G_1514941929437.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- 左右按钮 -->
+                            <div class="lot-prev">&lt;</div>
+                            <div class="lot-next">&gt;</div>
+                            <!-- 分页按钮 -->
+                            <ul class="uldod">
+                    
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="lbts">
+                        <div class="lbts_tittle">
+                            新品上架
+                        </div>
+                        <ul class="lbts_lists">
+                            <li>神经</li>
+                            <li>皮肤性病</li>
+                            <li>风湿免疫</li>
+                            <li>肿瘤</li>
+                            <li>消化</li>
+                        </ul>
+                        <!-- 导航栏指向的轮播图组 -->
+                        <ul class="lotsof_lbt">
+                            <li class="lot_list carousel-content">
+                                <!-- 给小轮播图的容器(适应插件) -->
+                                <ul class="bits_ul carousel">
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            万全力太 50mg*24片
+                                        </p>
+                                        <p class="bits_price">
+                                            特价中
+                                        </p>
+                                        <img src="images/5997_G_1513835756092.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            芭克硅胶软膏 15g
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥498.00
+                                        </p>
+                                        <img src="images/6192_G_1502851767331.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            驱白巴布期片 0.51g*12片*2板
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥49.00
+                                        </p>
+                                        <img src="images/7148_G_1501465599636.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            银耳孢糖胶囊 0.25g*24粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥30.00
+                                        </p>
+                                        <img src="images/9651_G_1504770590152.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- <li class="lot_list"></li> -->
+                            <li class="lot_list carousel-content">
+                                <!-- 给小轮播图的容器(适应插件) -->
+                                <ul class="bits_ul carousel">
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            芭克硅胶软膏 15g
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥498.00
+                                        </p>
+                                        <img src="images/6192_G_1502851767331.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            医护星尖锐克忧 2ml*8瓶
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥598.00
+                                        </p>
+                                        <img src="images/16507_G_1547174187087.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            醋酸氢化可的松片 20mg*100片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥78.00
+                                        </p>
+                                        <img src="images/5798_G_1514940555608.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            阿迈新 0.6g*3片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥120.00
+                                        </p>
+                                        <img src="images/6022_G_1510625559130.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                    
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            医用冷敷贴Ⅰ型（颈肩腰腿型） 
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥40.00
+                                        </p>
+                                        <img src="images/14590_G_1533020397606.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            黑骨藤追风活络胶囊 0.3g*12粒*3板
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥38.00
+                                        </p>
+                                        <img src="images/7829_G_1508219941532.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            塞雪风湿胶囊 0.4g*20粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥56.00
+                                        </p>
+                                        <img src="images/11330_G_1509082357371.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            金刺参九正合剂 40ml
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥66.00
+                                        </p>
+                                        <img src="images/10980_G_1385540070488.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            仙芝楼牌孢子灵芝提取物粉 1.6g*15包
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥398.00
+                                        </p>
+                                        <img src="images/10004_G_1395303544413.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lot_list">
+                                <ul class="bits_ul carousel">
+                                    <li class="bits ">
+                                        <p class="bits_tittle">
+                                            首荟通便胶囊 0.35g*6粒
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥215.00
+                                        </p>
+                                        <img src="images/15942_G_1542097321001.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            清胃止痛微丸 3.2g*9袋
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥65.00
+                                        </p>
+                                        <img src="images/15948_G_1533019316862.jpg" alt="" class="bits_img">
+                                    </li>
+                                    <li class="bits">
+                                        <p class="bits_tittle">
+                                            希笛尼 1mg*20片
+                                        </p>
+                                        <p class="bits_price">
+                                            ￥72.00
+                                        </p>
+                                        <img src="images/15952_G_1533007022416.jpg" alt="" class="bits_img">
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- 左右按钮 -->
+                            <div class="lot-prev">&lt;</div>
+                            <div class="lot-next">&gt;</div>
+                            <!-- 分页按钮 -->
+                            <ul class="uldod">
+                    
+                            </ul>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="small_nav">
+            <div class="container">
+                <li class="sm_modues">
+                    <a href="javascript:void(0)" class="sm_tittle">男性专场</a>
+                    <p class="greysm_tittle">男科用药大全,保健养生</p>
+                    <a href="javascript:void(0)" class="sm_inner">进入男科频道&nbsp;&gt;</a>
+                    <img src="images/topicunita.jpg" alt="" class="sm_rimng">
+                </li>
+                <li class="sm_modues">
+                    <a href="javascript:void(0)" class="sm_tittle">肿瘤防治</a>
+                    <p class="greysm_tittle">治疗路上，让您放心</p>
+                    <a href="javascript:void(0)" class="sm_inner">进入肿瘤频道&nbsp;&gt;</a>
+                    <img src="images/zhongliu.jpg" alt="" class="sm_rimng">
+                </li>
+                <li class="sm_modues">
+                    <a href="javascript:void(0)" class="sm_tittle">什么是银屑病</a>
+                    <p class="greysm_tittle">银屑病症状、病因、类型治疗</p>
+                    <a href="javascript:void(0)" class="sm_inner">进入银屑病频道&nbsp;&gt;</a>
+                    <img src="images/topicunitc.jpg" alt="" class="sm_rimng">
+                    
+                </li>
+                <li class="sm_modues">
+                    <p class="sm_tittle">更多频道</p>
+                    <ul class="sm_rul">
+                        <li class="sm_rlist"><a href="">癫痫频道</a></li>
+                        <li class="sm_rlist svg"><a href="">关爱白癜风</a></li>
+                        <li class="sm_rlist"><a href="">肝病频道</a></li>
+                        <li class="sm_rlist"><a href="">肿瘤频道</a></li>
+                        <li class="sm_rlist svg"><a href="">人血白蛋白</a></li>
+                        <li class="sm_rlist svg"><a href="">默沙东</a></li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+        <!-- 主内容 -->
+        <div class="boy_nextdoor">
+            <div class="container">
+                <div class="boy_top">
+                    <h2 class="contittle">
+                        1F 男性专场
+                    </h2>
+                    <a href="http://47.112.204.27:894/html/goodslists.html" class="boy_thisall">查看全部</a>
+                    <span class="boy_llogo"></span>
+                </div>
+                <ul class="boy_content">
+                    <li class="boy_bigimg">
+                        <img src="images/1548753108523952341.jpg" alt="" class="boy_biginner">
+                    </li>
+                    <li class="boy_lists">
+                        <img src="images/11956_G_1512091919794.jpg" alt="" class="boy_listimg">
+                        <a href="javascript:void(0)" class="boy_names">必利劲 30mg*3片</a>
+                        <p class="boy_price">￥248.00</p>
+                    </li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_smallli">
+                        <div class="boy_lists">
+                            <img src="images/6008_G_1529552363629.jpg" alt="" class="boy_listimg">
+                            <a href="javascript:void(0)" class="boy_names">希爱力 20mg*4片</a>
+                            <p class="boy_price">￥455.00</p>
+                        </div>
+                        <ul class="boy_smul">
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">男科频道</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">脱发</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">勃起功能障碍</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">早泄</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">男性不育症</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">前列腺增生</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">前列腺炎</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">泌尿系统感染</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_lists"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="boy_nextdoor">
+            <div class="container">
+                <div class="boy_top">
+                    <h2 class="contittle">
+                        4F 医疗器械
+                    </h2>
+                    <a href="javascript:void(0)" class="boy_thisall">查看全部</a>
+                    <span class="boy_llogo"></span>
+                </div>
+                <ul class="boy_content">
+                    <li class="boy_bigimg">
+                        <img src="images/1545277085351028279.jpg" alt="" class="boy_biginner">
+                    </li>
+                    <li class="boy_lists">
+                        <img src="images/11956_G_1512091919794.jpg" alt="" class="boy_listimg">
+                        <a href="javascript:void(0)" class="boy_names">必利劲 30mg*3片</a>
+                        <p class="boy_price">￥248.00</p>
+                    </li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_smallli">
+                        <div class="boy_lists">
+                            <img src="images/6008_G_1529552363629.jpg" alt="" class="boy_listimg">
+                            <a href="javascript:void(0)" class="boy_names">希爱力 20mg*4片</a>
+                            <p class="boy_price">￥455.00</p>
+                        </div>
+                        <ul class="boy_smul">
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">造口护理</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">家用护理用品</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">家用检测系列</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">皮肤科及美容美体</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">呼吸科及制氧器材</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">洗鼻鼻炎治疗</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">颈椎腰椎护理器材</a>
+                            </li>
+                            <li class="boy_smlis">
+                                <a href="javascript:void(0)">计生用品</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_lists"></li>
+                    <li class="boy_lists"></li>
+                </ul>
+            </div>
+        </div>
+        <div id="last_imgs">
+            <div class="container">
+                <img src="images/1545964995178555743.jpg" alt="" class="ggt">
+                <div id="threeimg">
+                    <img src="images/1545965230428358493.jpg" alt="">
+                    <img src="images/1545965282256706344.jpg" alt="">
+                    <img src="images/1546043301107734634.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="truth_goods">
+            <div class="truth_img"></div>
+            <div class="truth_text">
+                <h3>正品保障</h3>
+                <p>正品保障 放心选购</p>
+            </div>
+            <div class="truth_img"></div>
+            <div class="truth_text">
+                <h3>专业药师</h3>
+                <p>用药全程指导</p>
+            </div>
+            <div class="truth_img"></div>
+            <div class="truth_text">
+                <h3>厂家授权</h3>
+                <p>厂家授权 正品渠道</p>
+            </div>
+            <div class="truth_img"></div>
+            <div class="truth_text">
+                <h3>隐私配送</h3>
+                <p>安全放心 隐私配送</p>
+            </div>
+        </div>
+        <div id="tail_blue">
+            <div class="container">
+                <dl class="blue_ul">
+                    <dt>购物指南</dt>
+                    <dd>退换货流程</dd>
+                    <dd>会员说明</dd>
+                    <dd>订单管理</dd>
+                    <dd>订购方式</dd>
+                    <dd>订购流程</dd>
+                    <dd>用户注册</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>购物保障</dt>
+                    <dd>配送保障</dd>
+                    <dd>直营连锁</dd>
+                    <dd>GPS管理</dd>
+                    <dd>7天退换货</dd>
+                    <dd>合法资质</dd>
+                    <dd>十年品牌</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>支付方式</dt>
+                    <dd>网银/在线支付</dd>
+                    <dd>银行汇款</dd>
+                    <dd>货到付款</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>配送服务</dt>
+                    <dd>冷藏易碎品说</dd>
+                    <dd>商品签收</dd>
+                    <dd>快递查询</dd>
+                    <dd>配送细则</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>售后服务</dt>
+                    <dd>投诉与建议</dd>
+                    <dd>7天退换货</dd>
+                    <dd>提供机打发票</dd>
+                    <dd>全程用药服务</dd>
+                </dl>
+                <dl class="blue_ul">
+                    <dt>关于我们</dt>
+                    <dd>商务伙伴</dd>
+                    <dd>全国直营门店</dd>
+                    <dd>公司简介</dd>
+                    <dd>招募供应商</dd>
+                    <dd>人才招聘</dd>
+                </dl>
+                <img src="images/footerwc.jpg" alt="" class="blue_rimg">
+            </div>
+        </div>
+        <div id="bottom_police">
+            <div class="container">
+                <p>康德乐大药房－国家药监局认证的合法网上药店，全国首家专科连锁药房，专注于经营重大慢性疾病用药。粤ICP备11004502号-7 ©2005-2019 康德乐网上药店版权所有，并保留所有权利。</p>
+                <a href="javascript:void(0)" class="abtn">企业营业执照</a>
+                <a href="javascript:void(0)" class="abtn">互联网药品交易服务资格证书</a>
+                <a href="javascript:void(0)" class="abtn">互联网药品信息服务资格证书</a>
+                <a href="javascript:void(0)" class="abtn">药品经营许可证</a>
+                <div id="police_img">
+                    <img src="images/QQ截图20190318105834_03.png" alt="" class="pimg">
+                    <img src="images/QQ截图20190318105834_05.png" alt="" class="pimg">
+                    <img src="images/QQ截图20190318105834_07.png" alt="" class="pimg">
+                    <img src="images/QQ截图20190318105834_09.png" alt="" class="pimg">
+                    <img src="images/QQ截图20190318105834_11.png" alt="" class="pimg">
+                </div>
+            </div>
+        </div>
+        <ul id="rsuck">
+            <li class="rlis">
+                <div class="rsimg"></div>
+                <span class="rspan">购物车0件</span>
+            </li>
+            <li class="rlis">
+                <div class="rsimg"></div>
+                <span class="rspan">我的收藏</span>
+            </li>
+            <li class="rst">
+                <div class="rsimg"></div>
+            </li>
+            <li class="rlis">
+                <div class="rsimg"></div>
+                <span class="rspan">投诉建议</span>
+            </li>
+            <li class="rlis">
+                <div class="rsimg"></div>
+                <span class="rspan">返回顶部</span>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>

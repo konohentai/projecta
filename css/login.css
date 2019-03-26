@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+img {
+    display: inline-block;
+}
+
+html, body {
+    height: 100%;
+    background-color: #fff;
+}
+
+#box {
+    position: relative;
+    min-width: 1210px;
+}
+
+.container {
+    width: 1210px;
+    /* overflow: hidden; */
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+#tittle{
+    position: relative;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #888;
+    /* z-index: -1; */
+}
+#tittle_img{
+    /* width: 330px;
+    height: 120px; */
+    cursor: pointer;
+    float: left;
+    height: 90px;
+}
+/* #ilog{
+    font-family: 'Microsoft yahei';
+    font-size: 16px;
+    margin-top: 35px;
+    text-align: right;
+    float: right;
+} */
+#spnimg{
+    /* width: 150px; */
+    float: right;
+}
+/* #tolog{
+    color: #ff5c4d;
+} */
+#content{
+    height: 445px;
+    width: 100%;
+    background: url(../images/bgimg2018.jpg) center no-repeat;
+    padding: 30px 0;
+}
+#login_main{
+    box-sizing: border-box;
+    height: 100%;
+    width: 418px;
+    padding: 20px 30px;
+    float: right;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+}
+#tab .doublelist{
+    float: left;
+    width: 179px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    text-align: center;
+    /* color: #72a8ee; */
+    color: #000;
+    cursor: pointer;
+    position: relative;
+}
+#tab .doublelist:hover{
+    color: #72a8ee !important;
+}
+#login_main .s{
+    position: absolute;
+    left: 204px;
+    width: 1px;
+    height: 20px;
+    background-color: #eee;
+    margin-top: 15px;
+}
+#tab .doublelist .little_blue{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70px;
+    height: 3px;
+    background-color: #74aaf0;
+}
+#tab{
+    height: 50px;
+    border-bottom: 1px solid #e1edfd;
+    /* margin-bottom: 30px; */
+}
+#login_main .login{
+    height: 225px;
+    position: relative;
+}
+.login .inp_tex{
+    width: 100%;
+    width: 355px;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 10px 25px 10px 45px;
+    font-family: '宋体';
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.login:nth-child(1) .inp_tex:nth-child(1){
+    background: url(../images/kdlphicon.png) -467px -161px no-repeat;
+}
+.login:nth-child(1) .inp_tex:nth-child(3){
+    background: url(../images/kdlphicon.png) -464px -198px no-repeat;
+}
+.login .error_tex{
+    position: absolute;
+    width: 292px;
+    height: 20px;
+    font-size: 12px;
+    padding-left: 20px;
+    margin-top: 4px;
+    padding-top: 3px;
+    color: #ff5c4b;
+    background: url(../images/kdlphicon.png) -486px -100px no-repeat;
+    display: none;
+}
+.login .abox{
+    height: 40px;
+    margin-top: 16px;
+    font-family: '宋体';
+    line-height: 34px;
+}
+.login .abox .outera{
+    float: left;
+}
+.login .abox .outerb{
+    float: right;
+    color: #62b1ea;
+}
+.login .login_btn{
+    width: 358px;
+    height: 45px;
+    margin: 6px 0 20px;
+    background-color: #3283de;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.loginb{
+    /* margin: 50px 40px 0; */
+    /* height: 190px; */
+    position: relative;
+}
+.loginb .phone_falseborer{
+    height: 41px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Microsoft yahei';
+    border: 1px solid #dddddd;
+    position: relative;
+}
+.loginb .phone_falseborer:nth-child(3){
+    font-family: '宋体';
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.loginb .phone_falseborer:nth-child(4) .phone_text{
+    width: 118px;
+}
+#yzm_yes{
+    float: right;
+    width: 117px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f4f5f7;
+    color: #99999b;
+    height: 100%;
+    cursor: pointer;
+     font-size: 12px;
+}
+#yzm_yes a{
+    color: #555;
+}
+#login_main .loginb .phone_false1{
+    line-height: 15px;
+    top: 43px;
+}
+#login_main .loginb .inp_tex{
+    margin: 0;
+    box-sizing: content-box;
+}
+/* #content .phone_yesimg{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    background: url(../images/kdlphicon.png) -478px -129px no-repeat;
+    top: 7px;
+    right: 3px;
+    display: none;
+} */
+.loginb .phone_word{
+    color: #4e4e4e;
+    float: left;
+    text-indent: 20px;
+    line-height: 40px;
+    width: 120px;
+    
+}
+.loginb .phone_text{
+    border: none;
+    outline: none;
+    width: 235px;
+    height: 20px;
+    padding: 10px 0; 
+    font-size: 14px;
+}
+.loginb .phone_false1{
+    color: #ff5c4b;
+    display: block;
+    width: 272px;
+    height: 20px;
+    padding-left: 20px;
+    line-height: 22px;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    display: none;
+    background: url(../images/kdlphicon.png) -486px -100px no-repeat;
+}
+.phone_yesimg{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    background: url(../images/kdlphicon.png) -478px -129px no-repeat;
+    top: 7px;
+    right: 3px;
+    display: none;
+}
+
+
+/* .loginb{
+    display: none;
+} */
+.loginb:nth-child(3){
+    display: none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:rgb(153, 153, 153);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:rgb(153, 153, 153);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:rgb(153, 153, 153);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:rgb(153, 153, 153);
+}
+#bottom_police {
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0;
+    font-family: '宋体';
+    line-height: 18px;
+}
+#bottom_police p {
+    padding-bottom: 5px;
+    color: #555555;
+}
+
+#bottom_police .abtn {
+    padding: 0 18px;
+    color: #377bee;
+}
+
+#bottom_police .abtn:hover {
+    text-decoration: underline;
+}
+
+#police_img {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#police_img img {
+    width: 147px;
+    height: 53px;
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    /* float: left; */
+}
+
+#police_img img:nth-child(1) {
+    margin-left: 0;
+}
